@@ -23,7 +23,7 @@ import {
 import {Calendar} from 'react-native-calendars';
 
 import {Header} from './components';
-
+import email from 'react-native-email';
 const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'June', 'July', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
 
 const App = () => {
@@ -117,6 +117,14 @@ const App = () => {
     </SafeAreaView>
   );
 };
+// const sendmail=()=>{
+//   const to ="abdul.raw21@gamil.com"
+//   email(to, {
+//         subject: "New Event",
+//        body: `Event Remainder - ${n_event.event}`,
+//          checkCanOpen: false // Call Linking.canOpenURL prior to Linking.openURL
+//    }).catch(console.error)
+// }
 
 const height = Dimensions.get('window').height;
 const styles = StyleSheet.create({

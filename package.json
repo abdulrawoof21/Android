@@ -1,5 +1,5 @@
 {
-  "name": "cal",
+  "name": "Calendar",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -13,6 +13,7 @@
     "react": "17.0.2",
     "react-native": "0.68.2",
     "react-native-calendars": "^1.1284.0",
+    "react-native-email": "^2.1.0",
     "react-native-svg": "^12.3.0"
   },
   "devDependencies": {
